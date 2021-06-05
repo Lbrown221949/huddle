@@ -7,7 +7,7 @@ body, h2, p{
 body{
     background-color:hsl purple (257, 51%, 65%);
     background-color:rgb(180, 119, 180);
-    padding:2em;
+    padding:3em;
     background-image: url("bg-desktop.svg");
     background-position:center;
     background-repeat:no-repeat;
@@ -25,40 +25,44 @@ main{
     
 }
 .mockup_img{
-    width:40%;
+    width:100%;
     /* flex-basis:50%; */
 }
 .content{
-    width:35%;
+    width:100%;
     margin:3em  auto;
 }
 .content h2{
-    font-size:35px;
+    font-size:20px!important; 
     color:white;
     font-family:"Poppins";
 }
 .content p{
-    padding:2em 0em;
+    padding:3em 0em;
     color:rgb(236,235,235);
     font-size:14px;
-    line-height:25px;
+    line-height:23px;
+    text-align:center ;
+
 }
 .content button{
     padding:1em;
     border-radius:30px;
-    width:40%;
+    width:80% !important;
     color:purple;
     border:none;
+    
 }
 
 
 .content button:hover{
     background-color:purple;
     color:white;
+    align-items: center;
 }
 
 footer{
-    float:right;
+    float:right !important;
 }
 
 
@@ -66,7 +70,7 @@ footer .fab{
     color: white;
     font-size:20px;
     border:1px solid white;
-    padding:0.5px;
+    padding:0.5em;
     border-radius:50%;
     margin-right:5px;
 }
@@ -82,13 +86,13 @@ footer .fab:hover{
 
 
 header img{
-    width:50%;
+    width: 50%;
  }
 main{
     display:block;
  }
 main img{
-    width:100%; 
+    width:100%;
 }
 content{
     width:100%;
@@ -101,10 +105,11 @@ content h2{
 }
 content button{
     width:80%;
+    text-align: center;
  }
 footer{
-   float:none; !important;
-   text-align:center;!important;
+   float:none !important;
+   text-align:center!important;
         
 }
         
